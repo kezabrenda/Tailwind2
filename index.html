@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise2 Tailwind</title>
+
+    <link rel="stylesheet" href="public/styles.css">
+</head>
+<body> 
+    <div class="bg-red-100" >
+        <div>
+          <div class="text-red-500 text-4xl font-bold text-left pl-24 pt-6 pb-6"> Pizza Palace</div>
+        </div> 
+        <div class="grid grid-cols-2 gap-4">
+            <div class="mt-6 ml-24">
+                <h1 class="text-gray-700 font-bold text-2xl md:text-5xl">Welcome <span class="text-red-800">|</span> 
+                    <span class="text-red-400"> Pizza Palace</span>
+                </h1>
+                <p class="mt-14 text-xl md:text-4xl text-gray-600 text-left mr-8">We've never had to change our recipe. Because it never sucked.</p>
+                <div class="w-full">
+                    <button class="mx-auto mt-14 p-4 bg-gradient-to-r from-red-800 to-gray-200 text-white font-bold">Get started</button>
+                </div>
+            </div>
+
+            <div class="w-full">
+                <img class="rounded-xl pr-10 mt-10 mb-10" src="img/image1.jpg" alt="first image">
+            </div>
+        </div>
+    </div>
+    
+    <!--****************************************pink********************************************-->
+   <div class="mt-10 text-center">
+       <h3 class="text-2xl md:text-4xl font-bold">Testimonials</h3>
+       <p class="text-xl md:text-3xl mt-4  md:ml-48 md:mr-48 mb-6">Don't take our words for it. Read what our regular customers have to say about our products and services.</p>
+   </div>
+    <!--****************************************none********************************************-->
+
+   <div class="pt-8 pb-6 pl-8  grid md:grid-cols-3  bg-blue-300">
+       <div>
+           <img class="w-36 h-36 rounded-full ml-36" src="img/prfl1.jpg"> 
+           <div class="p-2 text-center">
+               <p class="text-3xl">John Doe</p>
+               <p class="text-xl">"Amzing pizza! Family friendly and super cool design."</p>
+           </div>
+        </div>
+
+        <div>
+            <img class="w-36 h-36 rounded-full ml-36" src="img/prfl1.jpg"> 
+            <div class="p-2 text-center">
+                <p class="text-3xl">John Doe</p>
+                <p class="text-xl">"Amzing pizza! Family friendly and super cool design."</p>
+            </div>
+         </div>
+
+         <div>
+            <img class="w-36 h-36 rounded-full ml-36" src="img/prfl1.jpg"> 
+            <div class="p-2 text-center">
+                <p class="text-3xl">John Doe</p>
+                <p class="text-xl">"Amzing pizza! Family friendly and super cool design."</p>
+            </div>
+         </div>
+   </div>
+    <!--****************************************blue********************************************-->
+    <div class="mt-12 bg-blue-300 rounded-2xl md:ml-72 md:mr-72 mb-4">
+        <p class="font-bold text-left md:text-center text-2xl md:text-3xl pt-4">Subscribe to our newsletter</p>
+        <div class="flex mt-4 md:ml-12 md:mr-12">
+            <div class="pb-10">
+                <input type="text" name="email" placeholder="Enter your email" class="h-16 w-64 md:w-96 rounded-lg placeholder-gray-500 placeholder-opacity-100 focus:placeholder-gray-400">
+            </div>
+            <button class="rounded-full py-3 px-6 h-16 md:w-48 ml-12 bg-red-500 text-white md:text-2xl">Subscribe</button>
+        </div>
+    </div>
+        <!--****************************************blue2********************************************-->
+
+        <div class="mt-12 bg-red-300 bg-opacity-25 pl-14 pt-8 pr-14 pb-8">                
+            <p class="text-4xl text-center font-bold pb-6">Gallery</p>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-x-20 gap-y-20">
+                <div class="bg-white">
+                    <img src="img/gallery.jpg" alt="1">
+                    <div class="px-6 py-4">
+                        <p class="text-lg md:text-2xl text-center pt-4 pb-4">Meal on the table</p>
+                    </div>
+                </div>
+                <div class="bg-white">
+                    <img src="img/gallery.jpg" alt="2">
+                    <div class="px-6 py-4">
+                        <p class="text-lg md:text-2xl text-center pt-4 pb-4">Meal on the table</p>
+                    </div>
+                </div>
+                <div class="bg-white">
+                    <img src="img/gallery.jpg" alt="3">
+                    <div class="px-6 py-4">
+                        <p class="text-lg md:text-2xl text-center pt-4 pb-4">Meal on the table</p>
+                    </div>
+                </div>
+                <div class="bg-white">
+                    <img src="img/gallery.jpg" alt="4">
+                    <div class="px-6 py-4">
+                        <p class="text-lg md:text-2xl text-center pt-4 pb-4">Meal on the table</p>
+                    </div>
+                </div>
+                <div class="bg-white">
+                    <img src="img/gallery.jpg" alt="5">
+                    <div class="px-6 py-4">
+                        <p class="text-lg md:text-2xl text-center pt-4 pb-4">Meal on the table</p>
+                    </div>
+                </div>
+                <div class="bg-white">
+                    <img src="img/gallery.jpg" alt="6">
+                    <div class="px-6 py-4">
+                        <p class="text-lg md:text-2xl text-center pt-4 pb-4">Meal on the table</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--****************************************pink2********************************************-->
+        <div class="md:bg-blue-200 bg-blue-200 pt-12 pl-24 pb-14">
+            <p class="font-bold text-4xl">Contact Us</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="">
+                    <p class="pt-10 text-3xl pb-8">Shoot us a message</p>
+                    <div class="p-2 md:w-1/2 pb-8">
+                        <input type="text" name="email" placeholder="Your email" class="h-14 md:w-96 rounded-lg text-2xl pl-4 placeholder-gray-800 placeholder-opacity-100 focus:placeholder-gray-800">
+                    </div>
+                    <div class="p-2 w-full pb-8">
+                        <textarea type="text" name="message" placeholder="Your message" class="h-32 md:w-96 rounded-lg text-2xl pl-4 placeholder-gray-800 placeholder-opacity-100 focus:placeholder-gray-800"></textarea>
+                    </div>
+                    <button class="rounded-lg h-12 w-36 md:w-24 bg-red-500 text-white md:text-2xl">Send</button>
+                </div>
+
+                <div class="md:pl-72 pr-32">
+                    <p class="text-xl md:text-3xl pt-10">Our socials</p>
+                    <div class="pt-6 text-lg md:text-2xl tracking-widest">
+                        <p class="pb-4">Facebook</p>
+                        <p class="pb-4">Instagram</p>
+                        <p class="pb-4">Linkedin</p>
+                        <p class="pb-4">Twitter</p>
+                    </div>
+                    <p class="text-red-800 text-lg md:text-lg text-right pt-24">&copy;2021 - Pizza Palace</p>
+                </div>
+            <div>
+        </div>
+
+</body>
+</html>
